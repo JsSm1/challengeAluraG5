@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Encriptador</title>
+</head>
+
+<body>
+    <header>
+        <div class="titulo">
+            Text Encryptor
+        </div>
+    </header>
+    <main>
+        <div class="columna1">
+            <form class="formularioText" action="">
+                <img class="imgAlura" src="./imgs/alura logo.png" alt="">
+                <textarea class="textoIngresado" placeholder="Ingrese el texto aquí" name="" id="" cols="30"
+                    rows="10"></textarea>
+                <div class="btnsFormulario">
+                    <input type="button" onclick="encriptado()" class="encriptarDatos" value="Encriptar">
+                    <input type="button" onclick="limpiarCampo()" class="limpiarDatos" value="limpiar campo de texto">
+                    <input type="button" onclick="desencriptado()" class="desencriptarDatos" value="Desencriptar">
+                </div>
+            </form>
+
+        </div>
+        <div class="columna2">
+
+            <div class="columImg">
+                <abbr
+                    title="https://www.freepik.es/vector-gratis/ilustracion-concepto-busqueda-curiosidad_30576701.htm#query=buscar&position=0&from_view=search&track=sph Imagen de storyset en Freepik"><img
+                        class="imgBusqueda" src="./imgs/Busqueda.jpg" alt="">
+                </abbr>
+                <h3>Ningún mensaje fue encontrado</h3>
+                <h1>🙁</h1>
+            </div>
+
+            <div class="formularioCopiado">
+                <label class="textLabel" id="Label" for="text">Texto encriptado:</label>
+                <textarea class="areaText2" name="" id="" cols="30" rows="10" required pattern="[A-Z]"
+                    title="Ingresar minusculas"></textarea>
+                <input class="btnCopiardatos" type="button" value="Copiar Datos">
+            </div>
+        </div>
+    </main>
+    <footer>
+       
+            <abbr title="https://www.flaticon.es/iconos-gratis/github creados por Freepik - Flaticon">
+               <a href="https://github.com/JsSm1"><img class="git" src="./imgs/github.png" alt=""></a></abbr>
+       
+        <p> © Copyright by Joan Saavedra</p>
+        <abbr title="https://www.flaticon.es/iconos-gratis/linkedin creados por Hight Quality Icons - Flaticon">
+            <a href="https://www.linkedin.com/in/sebastian-saavedra97/"><img class="linkedin" src="./imgs/linkedin.png" alt=""></a></abbr>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+
+</html>

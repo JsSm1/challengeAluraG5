@@ -1,0 +1,218 @@
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 0%;
+    margin: 0%;
+}
+.titulo {
+    display: flex;
+    width: 75%;
+    height: 40px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+main {
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    height: 530px;
+    width: 100%;
+}
+
+.columna1{
+    display: flex;
+    width: 80%;
+    height: 500px;
+    padding-top: 10px;
+    justify-content: center;
+    margin-left: 30px;
+    border-radius: 10px;
+    box-shadow: 1px 3px 7px 5px  #97a1a9;
+}
+
+.formularioText {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 100%;
+    height: 480px;
+    outline: none;
+}
+.textoIngresado{
+    padding: 5px;
+    font-size: 20px;
+    width: auto;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    margin-left: 50px;
+    resize: none;
+}
+.imgAlura{
+    padding: 5px;
+    width: 100px;
+}
+.btnsFormulario{
+    margin-top: 190px;
+}
+.encriptarDatos, .desencriptarDatos, .limpiarDatos{
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color:#97a1a9;
+    margin-left: 50px;
+    font-weight: bold;
+    padding: 5px;
+    margin: 5px;
+}
+.encriptarDatos:hover, .desencriptarDatos:hover, .limpiarDatos:hover{
+    box-shadow: 1px 3px 7px 5px#1c2d35;
+}
+.columna2 {
+    justify-content: center;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    width: 30%;
+    height:  520px;   
+    padding-bottom: 10px;
+    box-sizing: border-box;
+}
+.columImg{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position:absolute;
+    justify-content: center;
+    width: 70%;
+    background-color: white;
+    box-shadow: 1px 3px 7px 5px  #fc745b;
+    height: 495px;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.imgBusqueda{
+    margin-top: 50px;
+    width: 200px;
+    border-radius: 100px;
+    box-shadow: 1px 3px 7px 5px  #fc745b;
+}
+.formularioCopiado {
+    display: flex;
+    margin: 0 auto;
+    padding: 10px;
+    flex-direction: column;
+    outline: none;
+    align-content: center;
+    width: 70%;
+    box-shadow: 1px 3px 7px 5px #fc745b;
+    height: 495px;
+    border-radius: 10px;
+    background-color:white;
+    overflow: hidden;
+}
+
+.areaText2{
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    resize: none;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.textLabel{
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.btnCopiardatos{  
+    margin: 0 auto;
+    margin-top: 65%;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    color: white;
+    background-color: #fc745b; 
+    padding: 5px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.ocultar{
+    display: none;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#1c2d35 ;
+    height: 50px;
+    padding: 10px;
+    width: 100%;
+}
+
+.git, abbr{
+    margin: 5px;
+    height: 100%;   
+}
+.linkedin, abbr{
+    margin: 5px;
+    height: 100%;
+}
+
+
+@media screen and (max-width:480px) {
+
+    .titulo{
+        width: 100%;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+  
+    .columna1{
+        display: flex;
+        width: 75%;
+        margin: 0 auto;
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+    .formularioText{
+        margin: 0 auto;
+        display: flex;
+    }
+    .textoIngresado{
+        margin: 0 auto;
+        width: 90%;
+    }
+    .btnsFormulario{
+        margin-top: 40px;
+        text-align: center;
+        justify-content: center;
+    }
+    .encriptarDatos, .desencriptarDatos, .limpiarDatos{
+        margin-top: 0%;
+    }
+    .columna2{
+        display: flex;
+        width: auto;
+        margin-bottom: 40px;
+    }
+    footer{
+        width: auto;
+        display: flex;
+    }
+}
